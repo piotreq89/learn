@@ -14,7 +14,7 @@ public class SlayDragonQuest implements Quest {
     }
 
     public void embark() {
-        stream.print("Embark on quest to slay the dragon !");
+        stream.print("\nEmbark on quest to slay the dragon !\n");
 
     }
 }

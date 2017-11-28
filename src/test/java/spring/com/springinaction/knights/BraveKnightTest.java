@@ -12,7 +12,7 @@ import spring.com.springinaction.quest.Quest;
 public class BraveKnightTest {
 
     @Test
-    public void knightShouldEmbarkOnQuest(){
+    public void knightShouldEmbarkoOnQuest(){
         Quest mockQuest = mock(Quest.class);
 
         BraveKnight knight = new BraveKnight(mockQuest);
